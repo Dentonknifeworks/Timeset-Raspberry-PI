@@ -1,6 +1,6 @@
 <html>
 <body>
-<form action="/index.php" Name="home">
+<body style="background-color:black;"> <form action="/index.php" Name="home">
 <input type="Submit" value="Return Home">
 <br><br>
  
