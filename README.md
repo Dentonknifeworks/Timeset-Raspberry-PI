@@ -2,7 +2,9 @@
 Web based time set for Raspberry Pi with out internet access but setup as a Hotspot 
 This is used to set the time on a PI that is not connected to the internet and has a hotspot setup.
 Put the 3 files in your /var/www/html directory. "Note the index.php is to replace the Allsky index file" so that you have a link on the home page.
-Edit your sudoers file with sudo visudo /etc/sudoers 
+Edit your sudoers file with
+
+sudo visudo /etc/sudoers 
 
 NOTE YOU MUST USE VISUDO to edit this file
 Add at the bottom www-data ALL=(ALL) NOPASSWD: /bin/date, /bin/timedatectl
