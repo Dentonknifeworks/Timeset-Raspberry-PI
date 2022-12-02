@@ -7,7 +7,9 @@ Edit your sudoers file with
 sudo visudo /etc/sudoers 
 
 NOTE YOU MUST USE VISUDO to edit this file
-Add at the bottom www-data ALL=(ALL) NOPASSWD: /bin/date, /bin/timedatectl
+Add at the bottom
+
+www-data ALL=(ALL) NOPASSWD: /bin/date, /bin/timedatectl
 
 Time to test and use it
 Point your web browsers device that is connected to the Raspbery PI to your allsky page and click the timeset on the left
