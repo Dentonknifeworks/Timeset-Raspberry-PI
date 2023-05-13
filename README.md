@@ -1,7 +1,9 @@
 # Timeset-Raspberry-PI
 Web based time set for Raspberry Pi with out internet access but setup as a Hotspot 
 This is used to set the time on a PI that is not connected to the internet and has a hotspot setup.
-Put the 3 files in your /var/www/html directory. "Note the index.php is to replace the Allsky index file" so that you have a link on the home page.
+Put the 2 files in your /var/www/html directory or if you using the current Allsky version put the 2 files in /home/pi/allsky/html
+If you not using TJ's allsky and just want to be able to do the time setting use the /var/www/html and you may need to install a WEB host such as apache2.
+
 Edit your sudoers file with
 
 sudo visudo /etc/sudoers 
