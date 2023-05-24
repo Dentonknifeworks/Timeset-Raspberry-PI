@@ -14,8 +14,9 @@ Add at the bottom
 www-data ALL=(ALL) NOPASSWD: /bin/date, /bin/timedatectl
 
 Time to test and use it
-Point your web browsers device that is connected to the Raspbery PI to your allsky page and click the timeset on the left
-It will pull from that device the time and date next hit submit and a results page will be displayed. Hit the return to Home and done.
+Point your web browsers to your device \<device ip>\timeset.html
+Example one of mine is 192.168.254.178\timeset.html
+It will pull from that device the time and date next hit submit and a results page will be displayed. 
 
 If you decide to connect the internet and need NTP back on. Open a terminal window and pass this command sudo timedatectl set-ntp true This will allow the PI to get the time form the internet.
 
